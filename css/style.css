@@ -1,0 +1,36 @@
+.navbar h3 {
+   color: #1100ff;
+   margin-left: 100px;
+}
+
+.header span{
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 3px;
+   background: #3F5EFB;
+background: linear-gradient(135deg, rgb(0, 42, 255) 0%, rgb(243, 47, 86) 100%);
+    margin-left: 100px;
+    position: absolute;
+    top: 300px;
+}
+
+.header-content-text-center-desc1 h4{
+    color : #888888;
+    margin-left: 100px;
+    position: absolute;
+    top: 350px;
+    
+}
+
+.header-content-text-center-desc2 h2{
+    background: #121FCF;
+    background: linear-gradient(to right, rgb(0, 42, 255) 0%, rgb(243, 47, 86) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-left: 90px;
+    position: absolute;
+    top: 380px;
+    font-size: 60px;
+}
+
