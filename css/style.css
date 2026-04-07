@@ -1,36 +1,125 @@
+body {
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
 .navbar h3 {
-   color: #1100ff;
-   margin-left: 100px;
+    color: #1100ff;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #888;
+}
+.header {
+    text-align: center;
+    margin-top: 80px;
+
 }
 
-.header span{
-    color: #ffffff;
-    border-radius: 10px;
-    padding: 3px;
-   background: #3F5EFB;
-background: linear-gradient(135deg, rgb(0, 42, 255) 0%, rgb(243, 47, 86) 100%);
-    margin-left: 100px;
-    position: absolute;
-    top: 300px;
+.header h4 {
+    color: #888;
+    margin-top: 20px;
 }
 
-.header-content-text-center-desc1 h4{
-    color : #888888;
-    margin-left: 100px;
-    position: absolute;
-    top: 350px;
-    
-}
-
-.header-content-text-center-desc2 h2{
-    background: #121FCF;
-    background: linear-gradient(to right, rgb(0, 42, 255) 0%, rgb(243, 47, 86) 100%);
+.header h2 {
+    font-size: 50px;
+    background: linear-gradient(to right, blue, rgb(248, 46, 80));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-    margin-left: 90px;
-    position: absolute;
-    top: 380px;
-    font-size: 60px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#button-resume {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#button-projects {
+    background: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.picture img {
+    width: 300px;
+    border-radius: 50px;
+    background: linear-gradient(to right, blue, rgb(252, 33, 69));
+}
+.about-center {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about-center h2 {
+    font-size: 40px;
+    background: linear-gradient(to right, blue, rgb(253, 36, 72));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.desc1 {
+    font-size: 20px;
+}
+
+.desc2 {
+    width: 600px;
+    margin: auto;
+    color: #777;
+}
+
+.icons {
+    margin-top: 20px;
+    font-size: 30px;
+    background: linear-gradient(to right, blue, rgb(253, 36, 72));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin-top: 100px;
+}
+.footer ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
